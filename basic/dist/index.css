@@ -1,0 +1,82 @@
+  .container {
+      width: 500px;
+      height: 400px;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      margin-left: 35%;
+      margin-top: 50px;
+      border-radius: 10px;
+  }
+
+  .container h2 {
+      text-align: center;
+      font-size: 25px;
+  }
+
+  .container .header input {
+      width: 100%;
+      height: 50px;
+      border-radius: 5px;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+  .container .content textarea {
+      width: 100%;
+      height: 100px;
+      border-radius: 5px;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
+  .container #createContent {
+      width: 101%;
+      height: 50px;
+      background-color: blue;
+      color: #ffff;
+      border: none;
+      margin-top: 20px;
+      border-radius: 5px;
+  }
+
+  .contentComment {
+      width: 82.3%;
+      margin-left: 8%;
+      margin-top: 50px;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      border-radius: 10px;
+  }
+
+  .contentComment .text {
+      width: 350px;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      padding: 10px;
+      border-radius: 5px;
+  }
+
+  .contentComment .text .myBtn {
+      background-color: blue;
+      color: #ffff;
+      padding: 8px 20px;
+      border: none;
+      border-radius: 5px;
+  }
+
+  .renderComment {
+      display: flex;
+      flex-direction: column;
+  }
+
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #onClickComment {
+      padding: 18px 30px;
+      background-color: blue;
+      color: #ffff;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      border-radius: 5px;
+  }
