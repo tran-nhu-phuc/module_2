@@ -1,0 +1,113 @@
+ body {
+     background-color: rgb(245, 245, 245);
+ }
+
+ .do-work {
+     width: 50%;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     border: 1px solid rgba(0, 0, 0, 0.1);
+     height: 900px;
+     margin: 0 auto;
+     border-radius: 10px;
+ }
+
+ .do-work .contentHeader {
+     font-size: 40px;
+ }
+
+ .do-work .createWork {
+     width: 100%;
+     height: 50px;
+     display: flex;
+ }
+
+ .do-work .createWork input {
+     width: 100%;
+     flex: 1;
+     border: 1px solid rgba(0, 0, 0, 0.1);
+ }
+
+ .do-work .createWork button {
+     width: 100px;
+     background-color: blue;
+     color: #ffff;
+     border: none;
+ }
+
+ .do-work .tableWork {
+     width: 100%;
+     height: 80%;
+     overflow-y: scroll;
+ }
+
+ .do-work .tableWork .row-work {
+     width: 100%;
+     height: 80px;
+     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .do-work .tableWork .row-work .status {
+     margin-right: 20px;
+     display: flex;
+     column-gap: 20px;
+ }
+
+ .do-work .tableWork .row-work .status i:nth-child(1) {
+     color: orange;
+ }
+
+ .do-work .tableWork .row-work .status i:nth-child(2) {
+     color: red;
+ }
+
+ .do-work .tableWork .row-work .checkbox {
+     margin-left: 20px;
+ }
+
+ .done-work {
+     width: 100%;
+     height: 70px;
+     border-top: 1px solid rgba(0, 0, 0, 0.1);
+     background-color: rgb(223, 218, 218);
+     font-size: 20px;
+     border-bottom-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+ }
+
+ body {
+     position: relative;
+ }
+
+ .containerPopup {
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: rgba(206, 199, 199, 0.7);
+     display: none;
+ }
+
+ .popUp {
+     width: 100%;
+     height: 80px;
+     border: 1px solid rgba(0, 0, 0, 0.3);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+ .popUp>input {
+     width: 40%;
+     height: 50%;
+ }
+
+ .popUp>button {
+     width: 100px;
+     height: 58%;
+ }

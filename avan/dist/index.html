@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <main>
+      <section class="do-work">
+        <h2 class="contentHeader">Danh sách công việc</h2>
+        <div class="createWork">
+          <input
+            autofocus
+            type="text"
+            placeholder="Nhập tên công việc"
+            id="inputCreateListWork"
+          />
+          <button onclick="createListWork()">Thêm</button>
+        </div>
+        <div class="tableWork"></div>
+        <div class="done-work" id="doneWorkListWork"></div>
+      </section>
+      <div class="containerPopup"></div>
+    </main>
+    <script src="./index.js"></script>
+  </body>
+</html>
